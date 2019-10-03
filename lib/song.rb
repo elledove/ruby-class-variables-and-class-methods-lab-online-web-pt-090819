@@ -30,7 +30,7 @@ class Song
       if genre_count [sang]
         genre_count [sang] +=1 
       else
-        
+        genre_count
    @@genres
    end
   end
