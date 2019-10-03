@@ -25,7 +25,7 @@ class Song
   end
   
   def self.genre_count 
-    @@genres.each 
+    @@genres.each do sang
     
   end
   
