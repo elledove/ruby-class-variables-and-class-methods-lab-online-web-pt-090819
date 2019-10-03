@@ -25,7 +25,7 @@ class Song
   end
   
   def self.genre_count 
-   puts  @@genres.each do |n| n 
+   puts  @@genres.collect do |n| n 
    end
   end
   
