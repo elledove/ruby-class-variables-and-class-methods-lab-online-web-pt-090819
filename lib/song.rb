@@ -25,7 +25,7 @@ class Song
   end
   
   def self.genre_count 
-    @@genres.collect do |item| "{item[:] : "
+    @@genres.collect do |item| "{item [:key]} : }"
     
   end
   
