@@ -25,7 +25,7 @@ class Song
   end
   
   def self.genre_count 
-    @@genres.each do |sang| sang.
+    @@genres.each do |sang| sang.values.join('')
     
   end
   
