@@ -25,7 +25,7 @@ class Song
   end
   
   def self.genre_count 
-   puts  @@genres.collect do |n| n "n #{[:]}"
+   puts  @@genres.collect do |n| n "#n{[:]}"
    end
   end
   
