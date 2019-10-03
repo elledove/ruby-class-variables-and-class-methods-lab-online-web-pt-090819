@@ -24,7 +24,7 @@ class Song
     @@artists << artist
   end
   
-  def self.genre_count (array)
+  def self.genre_count 
     @@genres.collect do |item| "{item"
     
   end
