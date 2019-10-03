@@ -33,6 +33,7 @@ class Song
         genre_count[sang] = 1
     end
    end
+   genre_count
   end
   
 end
