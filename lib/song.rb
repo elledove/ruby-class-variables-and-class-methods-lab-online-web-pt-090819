@@ -24,7 +24,8 @@ class Song
     @@artists << artist
   end
   
-  def self.genre_count
+  def self.genre_count (key, value)
+    
   end
   
 end
