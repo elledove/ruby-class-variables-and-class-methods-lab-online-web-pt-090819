@@ -24,7 +24,8 @@ class Song
     @@artists << artist
   end
   
-  def self.genre_count (key, value)
+  def self.genre_count (array)
+    array.each do |item|
     
   end
   
