@@ -25,7 +25,7 @@ class Song
   end
   
   def self.genre_count
-    
+    genre_count = {}
     @@genres.collect do |p| "#{p[:key]}: #{p[:value]}" 
    @@genres
    end
